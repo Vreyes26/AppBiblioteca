@@ -64,4 +64,9 @@ public class MainActivity extends AppCompatActivity {
             startActivity(i);
         }
     }
+
+    public void githubAct(View v){
+        Intent i = new Intent(this, github_act.class);
+        startActivity(i);
+    }
 }
